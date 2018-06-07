@@ -13,6 +13,68 @@
 
 <meta name="description" content="This Github page enlists the Github source code repositories of the Examples, Plugins and Showcases on using GroupDocs APIs.">
 <meta name="keywords" content="assembly,metadata,viewer,conversion ">
+<style type="text/css">
+        #footer {
+            bottom: 0 !important;
+        }
+
+        body {
+            background-image: none !important;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+        }
+
+        .noprint2 {
+            list-style: none outside none;
+        }
+
+        .bodycontent {
+            min-height: 400px;
+        }
+
+        h2, h3 {
+            padding-bottom: 5px;
+        }
+
+        .github-head {
+            background: url(img/header1.png) center center #439cda !important;
+            margin-top: 38px;
+            padding: 10px 15px;
+        }
+
+        .github-hd-section {
+            display: inline;
+            height: 200px;
+            text-align: center;
+            padding: 0px 0;
+            color: #fff;
+        }
+
+            .github-hd-section h1 {
+                font-size: 40px;
+                font-weight: bold;
+                font-family: 'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+                margin: 15px 0 0px;
+            }
+    </style>
+    <script type="text/javascript">
+        jQuery.noConflict();
+
+        jQuery(document).ready(function () {
+            $('.siteTop_ContentContainer').find("button").click(function () {
+                $("#navbar-button").toggleClass("topbutton");
+            });
+
+            jQuery('#userControls').load('http://www.aspose.com/Header/logininfo.aspx?ShowBlc=false');
+
+            $("#userControls img").each(function () {
+                $(this).attr('src', "img/transparent.png");
+            })
+
+
+        });
+
+    </script>
 </head>
 <body id="mbody">
 <div id="Header">
@@ -20,12 +82,14 @@
 </div>
 <div id="rightbody" class="rightbody">
   <div id="mainbody">
-    <div class="container-fluid api-head">
-      <div class="container tl api-hd-section">
-        <h1><i class="fa fa-github fa-2x">&nbsp;</i><br>
-         Code Samples</h1>
-        <h3>Samples, Plugins and Showcases</h3>
-      </div>
+     <div class="container-fluid github-head">
+        <div class="container tl github-hd-section">
+            <h1>
+                <i class="fa fa-github fa-2x">&nbsp;</i><br>
+                Code Samples
+            </h1>
+            <h3>Examples, Plugins and Showcases</h3>
+        </div>
     </div>
     <div class="container-fluid api-block-section">
       <div class="white-bg">
@@ -70,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div class="gray-bg">
+      <div class="white-bg">
         <div class="container">
           <div class="api-box col-lg-4">
             <div class="api-product-title"> <a href="https://github.com/groupdocs-comparison?tab=repositories"> 
@@ -117,7 +181,8 @@
 	  </div>
           
         </div><!--container-->
-         <div class="container">
+         <div class="gray-bg">
+		<div class="container">
             <div class="api-box col-lg-4">
             <div class="api-product-title">
             <a href="https://github.com/groupdocs-metadata?tab=repositories">
@@ -182,9 +247,22 @@
 			   <li><a href="https://github.com/groupdocs/GroupDocs.Editor-for-Java">GroupDocs.Editor for Java</a></li>
             </ul>
           </div> 
-	        
+	       <div class="api-box col-lg-4">
+            <div class="api-product-title">
+            <a href="https://github.com/groupdocs-merger?tab=repositories">
+             <i class="api-groupdocs-merger-ico-new api-ico">&nbsp;</i> 
+              <h2>GroupDocs.Merger</h2>
+              <span>Product Family</span>
+              </a>
+              </div>
+            <ul>             
+              <li><a href="https://github.com/groupdocs/GroupDocs.merger-for-.NET">GroupDocs.Merger for .NET</a></li>
+			   
+            </ul>
+          </div>  
 
 		</div><!--container-->
+		</div>
      	</div>
 	</div>
     </div>
