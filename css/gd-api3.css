@@ -401,6 +401,8 @@ body > footer .linkedin:hover:before {
         white-space: nowrap;
     }	
 	
+.api-groupdocs-total-ico-new { background: url(../img/groupdocs-total.png) 0 0 no-repeat; background-position: -4px -4px; }
+	
 .api-groupdocs-viewer-ico-new { background: url(../img/groupdocs-viewer.png) 0 0 no-repeat; background-position: -4px -4px; }
 
 .api-groupdocs-annotation-ico-new { background: url(../img/groupdocs-annotation.png) 0 0 no-repeat; background-position: -4px -4px; }
